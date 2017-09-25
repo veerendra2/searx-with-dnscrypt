@@ -1,5 +1,7 @@
 # Searx with dnscrypt in Docker
 This repository is meant to build the base image for a `searx-with-dnscrypt` container.
+
+Repo website - https://veerendra2.github.io/searx-with-dnscrypt/
 ## What the heck is Searx?
 Searx is a free metasearch engine with the aim of protecting the privacy of its users.To this end, Searx does not share users' IP addresses or search history with the search engines it gathers results from. Tracking cookies served by the search engines are blocked, preventing user-profiling-based results modification. By default, Searx queries are submitted via HTTP POST, to prevent users' query keywords from appearing in webserver logs. Searx was inspired by the Seeks project, though it does not implement Seeks' peer-to-peer user-sourced results ranking.[continue on wikipedia](https://en.wikipedia.org/wiki/Searx)
    * Offical repo - https://github.com/asciimoo/searx
