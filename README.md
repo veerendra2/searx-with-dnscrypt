@@ -15,7 +15,13 @@ DNSCrypt is a protocol that authenticates communications between a DNS client an
 ## Why the heck I combined those two?
 Just for fun and provide better anommous internet surfing. All your DNS queries "from" `Searx` container is encrypted which prevents DNS spoofing + Provides basic privacy by mixing your queries with searches on other platforms without storing search data
    * ### What it can't do
-     Your DNS queries won't encrypt if you directly type URL of website(To do that, check [here](https://github.com/veerendra2/useless-scripts#5-dsncrypt-autopy)). Since the `dnscrypt-proxy` is only in this container, it can encrypts DNS queries of the links in results which you click.
+     Your DNS queries won't encrypt if you directly type the URL of website(To do that, check [here](https://github.com/veerendra2/useless-scripts#5-dsncrypt-autopy)). Since the `dnscrypt-proxy` is only in this container, it can encrypts DNS queries of the links in results which you click.
+
+## Run it
+`sudo docker run -d --name searx-dnscrypt -p 8888:8888 --dns=127.0.0.1 --restart always veerendrav2/searx-with-dnscrypt`
+   * `--dns=127.0.0.1` - Because `dnscrypt` binds on loopback address
+   * `--restart always` - Docker engine starts the container whenever machine boots
+   * You can access `Searx` at http://127.0.0.1:8888
 
 ## NOTE
 * Normal DNS servers(for e.g. Google's 8.8.8.8) won't support `Dnscrypt`. So there are some list of server that supports `Dnscrypt` protocol which you can get [here](https://github.com/jedisct1/dnscrypt-proxy/blob/master/dnscrypt-resolvers.csv).
