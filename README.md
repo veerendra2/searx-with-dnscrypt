@@ -1,3 +1,6 @@
+[![GitHub stars](https://img.shields.io/github/stars/veerendra2/searx-with-dnscrypt.svg)](https://github.com/veerendra2/searx-with-dnscrypt/stargazers)
+[![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/veerendra2/searx-with-dnscrypt/master/LICENSE)
+[![Twitter](https://img.shields.io/twitter/url/https/github.com/veerendra2/searx-with-dnscrypt.svg?style=social)](https://twitter.com/intent/tweet?text=Wow:&url=%5Bobject%20Object%5D)
 # Searx with dnscrypt in Docker
 This repository is meant to build the base image for a `searx-with-dnscrypt` container.
 
