@@ -13,7 +13,7 @@ Searx is a free metasearch engine with the aim of protecting the privacy of its 
    * Searx search engine site - https://www.searx.me/
 
 ## What the heck is dnscrypt?
-DNSCrypt is a protocol that authenticates communications between a DNS client and a DNS resolver. It prevents DNS spoofing. It uses cryptographic signatures to verify that responses originate from the chosen DNS resolver and haven't been tampered with.https://dnscrypt.org/
+DNSCrypt is a protocol that authenticates communications between a DNS client and a DNS resolver. It prevents DNS snooping. It uses cryptographic signatures to verify that responses originate from the chosen DNS resolver and haven't been tampered with.https://dnscrypt.org/
   * Offical repo - https://github.com/jedisct1/dnscrypt-proxy
   * Documentation - https://github.com/jedisct1/dnscrypt-proxy/wiki
   * Website - https://dnscrypt.org/
