@@ -19,7 +19,7 @@ DNSCrypt is a protocol that authenticates communications between a DNS client an
   * Website - https://dnscrypt.org/
 
 ## Why the heck I combined those two?
-Just for fun and provide better anommous internet surfing. All your DNS queries "from" `Searx` container is encrypted which prevents DNS spoofing + Provides basic privacy by mixing your queries with searches on other platforms without storing search data
+Just for fun and provide better anommous internet surfing. All your DNS queries "from" `Searx` container is encrypted which prevents DNS snooping + Provides basic privacy by mixing your queries with searches on other platforms without storing search data
    * ### What it can't do
      Your DNS queries won't encrypt if you directly type the URL of website(To do that, check [here](https://github.com/veerendra2/useless-scripts#5-dsncrypt-autopy)). Since the `dnscrypt-proxy` is only in this container, it can encrypts DNS queries of the links in results which you click.
 
